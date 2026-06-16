@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #e3f2fd, #fce4ec);
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #aaa;
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0;
+    margin-bottom: 25px;
+}
+
+
+.form-section {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+
+input,
+select {
+    padding: 12px;
+    width: 200px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+input:focus,
+select:focus {
+    border-color: #1565c0;
+}
+
+
+button {
+    background: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+button:hover {
+    background: #0d47a1;
+}
+
+
+.search-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.search-box input {
+    width: 300px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+table th {
+    background: #1565c0;
+    color: white;
+    padding: 14px;
+}
+
+
+table td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+}
+
+
+tr:hover {
+    background: #e3f2fd;
+}
+
+
+/* Edit button */
+.edit-btn {
+    background: orange;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background: darkorange;
+}
+
+
+/* Delete button */
+.delete-btn {
+    background: crimson;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
